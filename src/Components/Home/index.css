@@ -1,0 +1,27 @@
+.home-container{
+    margin: auto;
+    width: 95%;
+    padding-top: 40px;
+    display: flex;
+}
+
+.task-details-list{
+    padding-left: 0px;
+    list-style-type: none;
+}
+
+.add-task-btn{
+    width: 280px;
+    height: 40px;
+    gap: 6px;
+    border-radius: 19px;
+    background-color: #8976E4;
+    border: none;
+    color: #fff;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.task-container{
+    display: flex;
+}
