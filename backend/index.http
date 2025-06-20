@@ -1,0 +1,28 @@
+GET http://localhost:4000/api/tasks 
+
+
+###
+POST http://localhost:4000/api/tasks
+Content-Type: application/json
+
+{
+    "title": "Apply for a job",
+    "description": "Apply for the job at the company",
+    "deadline": "21-06-2025",
+    "status": "Done"
+}
+
+###
+PUT http://localhost:4000/api/tasks/9cc9a9b5-fb59-49b8-aa5d-136753bcdd24
+Content-Type: application/json
+
+{
+    "status": "Done",
+    "task_priority": "Completed",
+    "title": "Apply for the job at the company",
+    "description": "Apply for the job at the company ok",
+    "deadline": "2025-06-21"
+}
+
+###
+DELETE http://localhost:4000/api/tasks/414f30d6-5c4c-4a60-934a-48bbe162254e
